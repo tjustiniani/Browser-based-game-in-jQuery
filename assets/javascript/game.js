@@ -27,7 +27,7 @@ console.log(randomNumber);
 console.log(generatedNumber);
 
 
-// working on this section "reset"
+
 function fourRandomNumbers(){
 	for (var i = 0; i < 4; i++) {
 		var num = Math.floor(Math.random()*11+1);
@@ -37,7 +37,7 @@ function fourRandomNumbers(){
 }
 fourRandomNumbers();
 
-//resets the game wip
+
 function reset(){
         randomNumber=Math.floor(Math.random()*101+19);
         console.log(randomNumber)
@@ -50,14 +50,14 @@ function reset(){
 
 function winner(){
 	
-	$("#outcome .win-title").html("You won!!!");
-		$("#outcome").show();
+	$("#randomNumberWins .win-title").html("You won!!!");
+		$("#randomNumberWins").show();
 		wins++;
 	$("#randomNumberWins").text(wins);
 		reset();
 }
 
-//adds the losses to the total
+
 function loser(){
 	
 $("#randomNumberLosses.losses-title").html("You lost!!!");
@@ -75,7 +75,6 @@ $(".close").on ("click",function(){
 
 
 
-// this section works
 
 		$("#one").on ("click", function(){
 			total = total + generatedNumber[0];
