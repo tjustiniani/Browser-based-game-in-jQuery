@@ -1,10 +1,10 @@
 body {
-	background-image: url("../images/background.jpg");
+	background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/yRF5c-O/diamond-rain-purple-4k-and-full-hd_vkocjpnc__F0000.png");
 }
 
 h1{
-	background-color: violet;
-    font-size: 30px;
+    background-color: #C5BCE0;
+    font-size: 100px;
 	color: grey;
 	padding: 50px;
 	text-align: center;
@@ -15,7 +15,7 @@ h1{
 
 .instructions {
     background:beige;
-    color:violet;
+    color:#239B59;
     margin-bottom:40px;
     margin-left:20px;
     margin-right:40px;
@@ -29,28 +29,28 @@ h1{
     background:beige;
     margin-bottom:40px;
     font-size: 20px;
-    color:violet;
+    color:#239B59;
     height:100px;
     margin-left:15px;
-    width:400px;
+    width:300px;
 }
 
 .win-title {
     background:beige;
     margin-bottom:10px;
     font-size: 20px;
-    width:400px;
+    width:300px;
     height:100px;
-    color:violet;
+    color:#239B59;
 }
 
 .losses-title {
     background:beige;
     margin-bottom:10px;
     font-size: 20px;
-    width:400px;
+    width:300px;
     height:100px;
-    color:violet;
+    color:#239B59;
 }
 
 .so-far {
@@ -59,7 +59,7 @@ h1{
     font-size: 20px;
     width:400px;
     height:100px;
-    color:violet;
+    color:#239B59;
     margin-right:20px;
 }
 
@@ -67,8 +67,8 @@ h1{
     background:beige;
     margin-bottom:30px;
     font-size: 20px;
-    width:100%;
+    width:80%;
     height:100px;
-    color:violet;
+    color:#239B59;
     
 }
